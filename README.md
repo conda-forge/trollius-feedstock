@@ -18,14 +18,16 @@ and other related primitives.
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/trollius-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/trollius-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/trollius-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/trollius-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/trollius-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/trollius-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/trollius-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/trollius-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/trollius-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/trollius-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/trollius-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/trollius-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/trollius/badges/version.svg)](https://anaconda.org/conda-forge/trollius)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/trollius/badges/downloads.svg)](https://anaconda.org/conda-forge/trollius)
+
+| Name | Downloads | Version | Platforms |
+| --- | --- | --- | --- |
+| [![Conda Recipe](https://img.shields.io/badge/recipe-trollius-green.svg)](https://anaconda.org/conda-forge/trollius) | [![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/trollius.svg)](https://anaconda.org/conda-forge/trollius) | [![Conda Version](https://img.shields.io/conda/vn/conda-forge/trollius.svg)](https://anaconda.org/conda-forge/trollius) | [![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/trollius.svg)](https://anaconda.org/conda-forge/trollius) |
 
 Installing trollius
 ===================
