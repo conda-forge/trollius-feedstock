@@ -19,11 +19,11 @@ requirements:
   build:
     - {{ compiler('c') }}
   host:
-    - python
+    - python <=3.6
     - pip
 
   run:
-    - python
+    - python <=3.6
     - six
     - futures  # [py27]
 
