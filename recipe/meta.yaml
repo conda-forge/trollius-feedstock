@@ -21,7 +21,7 @@ requirements:
   host:
     - python <=3.6
     - pip
-
+    - msinttypes  # [py27]
   run:
     - python <=3.6
     - six
