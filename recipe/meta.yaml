@@ -12,20 +12,23 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1
+  number: 1001
+  skip: true  # [py>35]
   script: python -m pip install --ignore-installed --no-deps .
   
 requirements:
   build:
     - {{ compiler('c') }}
+    - msinttypes  # [win and vc<14]
   host:
     - python
     - pip
-
+    - msinttypes  # [win and vc<14]
   run:
     - python
     - six
     - futures  # [py27]
+    - ordereddict  # [py26]
 
 test:
   imports:
