@@ -27,6 +27,7 @@ requirements:
     - python <=3.6
     - six
     - futures  # [py27]
+    - ordereddict  # [py26]
 
 test:
   imports:
