@@ -13,6 +13,7 @@ source:
 
 build:
   number: 1001
+  skip: true  # [py>35]
   script: python -m pip install --ignore-installed --no-deps .
   
 requirements:
@@ -20,11 +21,11 @@ requirements:
     - {{ compiler('c') }}
     - msinttypes  # [win and vc<14]
   host:
-    - python <=3.6
+    - python
     - pip
     - msinttypes  # [win and vc<14]
   run:
-    - python <=3.6
+    - python
     - six
     - futures  # [py27]
     - ordereddict  # [py26]
