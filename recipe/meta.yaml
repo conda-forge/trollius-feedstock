@@ -1,6 +1,6 @@
 {% set name = "trollius" %}
-{% set version = "2.2" %}
-{% set sha256 = "b35b9a9079c3c06a04cedf27dd833982b5d58401722da63d2c7c6384063a6924" %}
+{% set version = "2.2.post1" %}
+{% set sha256 = "1667f915b1fe11d237bb1ea380a8920d11b4ee7c5744220bdd656076cd24441b" %}
 
 package:
   name: {{ name|lower }}
@@ -12,7 +12,7 @@ source:
   sha256: {{ sha256 }}
 
 build:
-  number: 1001
+  number: 0
   skip: true  # [py>35]
   script: python -m pip install --ignore-installed --no-deps .
   
